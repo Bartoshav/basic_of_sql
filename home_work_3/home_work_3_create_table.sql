@@ -22,7 +22,7 @@ CREATE TABLE customer (
     customer_name VARCHAR(25) NOT NULL,
     PRIMARY KEY (id_customer)
     );
-    
+       
 CREATE TABLE customer_order (
 	id_order INT NOT NULL AUTO_INCREMENT,
     quantity INT NOT NULL,
